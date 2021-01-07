@@ -22,7 +22,6 @@ Go to the artifact folder e.g.
 ```sh
 cd ~/home/tacas21/Desktop/artifact
 ```
-
 To install Storm and all dependencies run the following:
 ```sh
 sudo ./install_dependencies.sh && sudo ./install_storm.sh
@@ -33,8 +32,7 @@ The first script installs all dependencies, the second script installs Storm. Th
 Installing over night is not a bad idea at all.
 
 ## How to use the artifact
-The best starting point is the README.md file in this folder.
-
+The best starting point is the README.md file in this folder. Furthermore, the letter to the reviewers (letter.pdf) is usefull when replicating the results. 
 
 ## Replicating evaluation of Storm
 
