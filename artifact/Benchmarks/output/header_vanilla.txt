@@ -1,1 +1,1 @@
-CS;States;Transitions;TimeTotal;PLACall;exit;Res;q
+CS;States;Transitions;TimeTotal;PLACall;exit;Result;q

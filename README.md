@@ -155,5 +155,10 @@ E.g.
 ```
 
 It extends the [csv_name] file with one new entry for this case.
-**Note that the header of the table is not printed.**
+The header of the table is not printed by this script. This could be fixed manually.
+E.g.
+```sh
+cat output_header_integrated.txt >> integrated_nrp.csv 
+```
+
 
