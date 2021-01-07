@@ -148,11 +148,11 @@ To get the csv result for one case use:
 ```sh
 ./get_csv_[vanilla or integrated].sh [output_name] [csv_name]
 ```
-
 E.g.
 ```sh
 ./get_csv_integrated.sh nrp_10,1 integrated_nrp.csv
 ```
 
-**Note that with each run of this script the header of the table is also printed again**
+It extends the [csv_name] file with one new entry for this case.
+**Note that the header of the table is not printed.**
 

@@ -606,7 +606,6 @@ namespace storm {
             ConstantType value = storm::solver::minimize(dir) ? 1 : 0;
             Valuation valuation;
             std::set<VariableType> monIncr, monDecr, notMon, notMonFirst;
-            STORM_PRINT("Number of parameters: " << region.getVariables().size() << std::endl;);
 
             if (localMonRes != nullptr) {
                 localMonRes->getGlobalMonotonicityResult()->splitBasedOnMonotonicity(region.getVariables(), monIncr, monDecr, notMonFirst);
