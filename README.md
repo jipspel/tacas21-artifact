@@ -161,4 +161,4 @@ E.g.
 cat output_header_integrated.txt >> integrated_nrp.csv 
 ```
 
-
+Note that the machine we used for the evaluation differs from the VM of the artifact. As a result, running the examples in the artifact may require less splits than our reported results.
