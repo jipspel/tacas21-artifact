@@ -80,7 +80,10 @@ The output of the run is written to the output folder. The name of the file is
 ```sh
 output_[benchmark]_[instance of the benchmark]_[vanilla or integrated]_[0.1 or 0.05].txt
 ```
-
+E.g.
+```sh
+output_nrp_10,1_integrated_0.1.txt
+```
 #### Running one benchmark yourself
 It is also possible to provide the whole command yourself.
 The structure of the command looks as follows:
@@ -148,7 +151,7 @@ To get the csv result for one case use:
 ```
 E.g.
 ```sh
-./get_csv_integrated.sh nrp_10,1 integrated_nrp.csv
+./get_csv_integrated.sh output_nrp_10,1_integrated_0.1.txt integrated_nrp.csv
 ```
 
 It extends the [csv_name] file with one new entry for this case.
