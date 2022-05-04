@@ -2,14 +2,13 @@
 
 
 This is an artifact created for our TACAS submission: _Jip Spel, Sebastian Junges and Joost-Pieter Katoen._ **Finding Provably Optimal Markov Chains.**
+The virtual machine can be found at: https://zenodo.org/record/4041464#.YnJIbZJBz0o 
 
 ## What is inside
 When installed, the artifact contains:
  * dependencies for Storm,
- * Storm,
- * folder with the Benchmarks, 
- * updated version of paper, and
- * letter to the reviewers.
+ * Storm, and
+ * folder with the Benchmarks.
 
 The artifact contains the sources and users need to install all the relevant tools.
 
