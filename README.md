@@ -2,7 +2,7 @@
 
 
 This is an artifact created for our TACAS submission: _Jip Spel, Sebastian Junges and Joost-Pieter Katoen._ **Finding Provably Optimal Markov Chains.**
-The virtual machine can be found at: https://zenodo.org/record/4041464#.YnJIbZJBz0o 
+We use the [TACAS 21 virtual machine](https://zenodo.org/record/4041464#.YnJIbZJBz0o) 
 
 ## What is inside
 When installed, the artifact contains:
